@@ -1,3 +1,5 @@
+前言：b站大佬tetae开发的qwen3.5llama插件,方便个人使用，所以搬运到这里
+
 来源于B站：【Qwen3.5 图片反推提示词支持ComfyUI.全新TE-llama反推节点高速版，再提速20%】https://www.bilibili.com/video/BV1viPvzJEha?vd_source=88bb58bee6e1773cd3c34354ab4ead37
 ComfyUI Qwen3.5 GGUF 本地图片推理插件 （Qwen VL）
 这是一个专为 ComfyUI 设计的自定义节点，用于在本地运行 Qwen3-VL 和 Qwen3.5-VL （GGUF 格式） 多模态大模型，实现图片理解、视频帧分析和视觉问答功能。
@@ -24,4 +26,4 @@ ComfyUI Qwen3.5 GGUF 本地图片推理插件 （Qwen VL）
 https://github.com/JamePeng/llama-cpp-python/releases
 要去上面这个网址下载whl文件，根据自己的cuda版本来下载，比如我的是cu128，就下载cu128的3.30的文件，再用TE启动器安装whl文件就行了
 4. 准备模型文件
-你需要下载 GGUF 格式的主模型和对应的 mmproj （视觉投影） 文件。 在 ComfyUI 根目录下创建文件夹：models/LLM/ （如果不存在）。 完整路径示例：ComfyUI/models/LLM/ 将下载的 .gguf 主模型文件放入该文件夹。 将下载的 mmproj 文件 （通常也是 .gguf 结尾） 放入该文件夹。 模型来源推荐： HuggingFace 或 ModelScope 搜索 “Qwen3.5-VL GGUF”。b站大佬tetae开发的qwen3.5llama插件,方便个人使用，所以搬运到这里
+你需要下载 GGUF 格式的主模型和对应的 mmproj （视觉投影） 文件。 在 ComfyUI 根目录下创建文件夹：models/LLM/ （如果不存在）。 完整路径示例：ComfyUI/models/LLM/ 将下载的 .gguf 主模型文件放入该文件夹。 将下载的 mmproj 文件 （通常也是 .gguf 结尾） 放入该文件夹。 模型来源推荐： HuggingFace 或 ModelScope 搜索 “Qwen3.5-VL GGUF”。
