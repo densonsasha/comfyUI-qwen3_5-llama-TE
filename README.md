@@ -24,7 +24,7 @@ ComfyUI Qwen3.5 GGUF 本地图片推理插件 （Qwen VL）
 2. 安装依赖 (重要)
 进入插件目录，运行以下命令安装必要的 Python 库
 https://github.com/JamePeng/llama-cpp-python/releases
-要去上面这个网址下载whl文件，根据自己的cuda版本来下载，比如我的是cu128，就下载cu128的3.30的文件，再用TE启动器安装whl文件就行了
+要去上面这个网址下载whl文件，根据自己的cuda版本来下载，比如我的是cu128，python3.12就下载cu128的3.30的文件，再用TE启动器安装whl文件就行了
 4. 准备模型文件
-qwen3.5破限版模型地址：https://huggingface.co/collections/lukey03/qwen35-9b-abliterated
+qwen3.5破限版模型地址：https://huggingface.co/lukey03/Qwen3.5-9B-abliterated-GGUF/tree/main
 你需要下载 GGUF 格式的主模型和对应的 mmproj （视觉投影） 文件。 在 ComfyUI 根目录下创建文件夹：models/LLM/ （如果不存在）。 完整路径示例：ComfyUI/models/LLM/ 将下载的 .gguf 主模型文件放入该文件夹。 将下载的 mmproj 文件 （通常也是 .gguf 结尾） 放入该文件夹。 模型来源推荐： HuggingFace 或 ModelScope 搜索 “Qwen3.5-VL GGUF”。
