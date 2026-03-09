@@ -1,11 +1,12 @@
 前言：b站大佬tetae开发的qwen3.5llama插件,方便个人使用，所以搬运到这里
 
-来源于B站：【Qwen3.5 图片反推提示词支持ComfyUI.全新TE-llama反推节点高速版，再提速20%】https://www.bilibili.com/video/BV1viPvzJEha?vd_source=88bb58bee6e1773cd3c34354ab4ead37
-
-
+来源于B站：
 二次更新：【只需1.912秒反推一张图!全网最快! ComfyUI TE-llama 反推节点,再再提速30%,极致速度,极致效率.-哔哩哔哩】 https://b23.tv/Omrur4a
 ComfyUI Qwen3.5 GGUF 本地图片推理插件 （Qwen VL）
 这是一个专为 ComfyUI 设计的自定义节点，用于在本地运行 Qwen3-VL 和 Qwen3.5-VL （GGUF 格式） 多模态大模型，实现图片理解、视频帧分析和视觉问答功能。
+初次更新：
+【Qwen3.5 图片反推提示词支持ComfyUI.全新TE-llama反推节点高速版，再提速20%】https://www.bilibili.com/video/BV1viPvzJEha?vd_source=88bb58bee6e1773cd3c34354ab4ead37
+
 
 ✨ 主要特性
 支持模型： Qwen3-VL， Qwen3.5-VL （GGUF 格式）。
