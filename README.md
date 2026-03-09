@@ -33,7 +33,6 @@ https://github.com/JamePeng/llama-cpp-python/releases
 qwen3.5破限版模型：
 https://huggingface.co/lukey03/Qwen3.5-9B-abliterated-GGUF/tree/main
 
-qwen3.5 4b破限模型：
-https://hf-mirror.com/huihui-ai/Huihui-Qwen3.5-4B-abliterated
+qwen3.5破限模型请搜索huihui-ai
 
 你需要下载 GGUF 格式的主模型和对应的 mmproj （视觉投影） 文件。 在 ComfyUI 根目录下创建文件夹：models/LLM/ （如果不存在）。 完整路径示例：ComfyUI/models/LLM/ 将下载的 .gguf 主模型文件放入该文件夹。 将下载的 mmproj 文件 （通常也是 .gguf 结尾） 放入该文件夹。 模型来源推荐： HuggingFace 或 ModelScope 搜索 “Qwen3.5-VL GGUF”。
